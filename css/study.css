@@ -1,0 +1,55 @@
+
+.study {
+    
+background: #f3e2c7;
+background: -moz-linear-gradient(45deg, #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%);
+background: -webkit-linear-gradient(45deg, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+background: linear-gradient(45deg, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=1 );
+}
+.study p {
+    text-align: justify;
+    padding: .2em 1.2em .2em 1.2em;
+    text-indent: 1.5em;
+   
+}
+
+.study h2 {
+    font-family: Shrikhand;
+    font-size: 1.45em;
+    word-wrap: break-word;
+    cursor: pointer;
+    padding-left: 2em;
+    border-bottom: 1px dotted black;
+    
+  
+}
+
+
+	
+.study .title-date {
+    
+    font-size: .75em;
+    float: right;  
+    padding-right: 2em;
+    }
+
+ul {
+    list-style-type: none;
+}
+
+
+.accordion-title:after {
+  position: absolute;
+  display: block;
+  content: '';
+}
+.accordion-content {
+    display: none;
+}
+.text-in {
+ 
+    font-weight: bold;
+    text-decoration: underline;
+    
+}

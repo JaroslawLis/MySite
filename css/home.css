@@ -1,0 +1,11 @@
+.home {
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+}
+
+.home a:hover {
+    background: #ff79c5; transition: .5s;
+  
+}

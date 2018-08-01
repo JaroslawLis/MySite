@@ -1,0 +1,160 @@
+
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/rawpixel-com-550994-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+max-width: 1000px;
+margin: 0 auto;
+}
+
+header {
+max-width: 1000px;
+margin: 0 auto;
+width: 100%;
+height: 120px;
+background-color: #4c006b;
+}
+header li {
+  display: inline-block;
+ 
+}
+.logo {
+float: left;
+margin-top: 0px;
+}
+.menu {
+float: right;
+}
+.clear {
+clear: both;
+}
+
+header ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+header ul li {
+display: inline-block;
+}
+header ul li a {
+text-decoration: none;
+color: #FFFFFF;
+text-transform: uppercase;
+font-size: 1.25em;
+text-align: center;
+display: inline-block;
+line-height: 80px;
+padding: 0 20px;
+}
+header ul li a:hover {
+background-color: #cc00ff;
+color: #FFFFFF;
+transition: .5s;
+}
+.JSMenu  {
+margin: 25px auto;
+display: inline-block;
+width: 100%;
+height: 99px;
+background-color:  #4c006b;
+position: relative;
+background-image: url("https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-128.png");
+background-size: contain ;
+ background-repeat: no-repeat;
+}
+.JSMenu ul {
+    float: right;
+}
+.JSMenu ul li {
+    display: inline-block;
+}
+.JSMenu ul li a {
+text-decoration: none;
+color: #FFFFFF;
+text-transform: uppercase;
+font-size: 1.15em;
+text-align: center;
+display: inline-block;
+line-height: 80px;
+padding: 0 20px;
+}
+.JSMenu ul li a:hover {
+background-color: #cc00ff;
+color: #FFFFFF;
+transition: .5s;
+}
+
+
+section.youtube {
+
+    
+    background: rgb(181,189,200);
+background: -moz-linear-gradient(-45deg, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 75%, rgba(40,52,59,1) 100%);
+background: -webkit-linear-gradient(-45deg, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 75%,rgba(40,52,59,1) 100%);
+background: linear-gradient(135deg, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 75%,rgba(40,52,59,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 );
+    /*color: #CCCC33;*/
+   
+    float: none;
+    margin: 0 auto;
+    padding-top: 25px;
+    position: relative;
+}
+section.youtube ul {
+    margin: 0 auto;
+    display: list-item;
+    list-style-type: none;
+    
+}
+section.youtube li {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    border:3px solid white;
+    width:75%;
+    padding:15px;
+    color: black;
+    margin-bottom: 15px;
+    font-weight: 900;
+   
+}
+section.youtube li:hover {
+   background: #fefcea;
+background: -moz-linear-gradient(top, #fefcea 0%, #f1da36 47%);
+background: -webkit-linear-gradient(top, #fefcea 0%,#f1da36 47%);
+background: linear-gradient(to bottom, #fefcea 0%,#f1da36 47%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 );
+}
+section.youtube li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+div.home {
+    margin: 1em auto 1em auto;
+    padding: 1em 1em 1em 1em;
+    background: rgb(252,255,244);
+background: -moz-linear-gradient(top, rgba(252,255,244,1) 0%, rgba(233,233,206,1) 100%);
+background: -webkit-linear-gradient(top, rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%);
+background: linear-gradient(to bottom, rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=0 );
+}
+div.home p {
+    text-indent: 1.5em;
+    font-size: 1.25em;
+    text-align: justify;
+}
